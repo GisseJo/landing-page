@@ -36,6 +36,17 @@ a {
     display: flex;
 }
 
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
 .hero h1 {
     font-size: 48px;
     font-weight: 900;
@@ -47,14 +58,18 @@ a {
     color: #E5E7EB;
 }
 
-button {
-    background-color: #3882f6;
-    color: #E5E7EB;
-}
-
 .hero button {
-
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
 }
+
+.hero-right {
+    display: flex;
+    margin: 50px;
+}
+
+
 
 .info {
     display: flex;
