@@ -65,8 +65,12 @@ button {
 
 .hero button {
     width: fit-content;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 18px;
 }
 
 .hero-right {
@@ -117,7 +121,7 @@ button {
 
 }
 
-.quote h3 {
+.quote-content {
     font-size: 36px;
     font-weight: 300;
     color: #1F2937;
@@ -128,18 +132,41 @@ button {
     font-style: italic;
 }
 
-.quote p {
+.quote-author {
+    font-size: 24px;
+    font-weight: 100;
     text-align: right;
-    align-self: auto;
+    margin-right: 200px;
+    margin-bottom: 50px;
 }
-
 .cta {
     background-color: #3882f6;
     display: flex;
+    margin: 80px 100px 80px 100px;
+    border-radius: 10px;
+    height: 150px;
+    color: #E5e7eb;
 }
 
-.cta button {
+.cta-title {
+    font-weight: bold;
+    font-size: 24px;
+}
 
+.cta-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+.cta button {
+    border-color: #E5e7eb;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 18px;
 }
 
 footer {
